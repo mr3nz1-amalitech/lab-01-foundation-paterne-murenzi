@@ -10,7 +10,6 @@
 
 attendees = []
 
-
 def get_attendee_info():
     print("########################################")
     print("Attendee # ")
@@ -52,5 +51,5 @@ attendee = get_attendee_info()
 attendee["ticket_type"] = assign_zone(attendee["age"], attendee["ticket_type"])
 
 store_attendee(attendee)
-store_attendee(attendee)
+
 print_summary()
